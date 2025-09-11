@@ -21,8 +21,8 @@ body {
   margin: 5.5rem auto;
   background-color: var(--white);
   border: 1px solid var(--gray950);
-  max-width: 26.9%;
-  width: 100%;
+  width: 90%; /* Use most of viewport width on small screens */
+  max-width: 400px; /* Limit max width for readability on large screens */
   box-shadow: 8px 8px 0px 0px var(--gray950);
 }
 
