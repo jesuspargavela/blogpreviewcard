@@ -10,11 +10,11 @@ body {
 }
 
 .container {
-  padding: 1rem;
-  margin: 5.9rem auto;
+  padding: 1.4rem;
+  margin: 5.5rem auto;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
-  max-width: 24.5%;
+  max-width: 26.9%;
   width: 100%;
   box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
 }
@@ -42,6 +42,10 @@ body {
 
 .description {
   color: hsl(0, 0%, 42%);
+}
+
+.title{
+  max-width: 100%;
 }
 
 .title:hover {
