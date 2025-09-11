@@ -11,25 +11,44 @@ body {
 
 #container {
   padding: 1rem;
-  margin: 9rem auto;
+  margin: 5.9rem auto;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
   max-width: 24.5%;
   width: 100%;
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
 }
 
 #container,
-#image-container img,
-#learning {
+#image-container img {
   border-radius: 10px;
 }
 
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
 #learning {
+  padding: 0.6rem;
+  border-radius: 5px;
   background-color: hsl(47, 88%, 63%);
   max-width: fit-content;
 }
 
 #image-container img {
+  width: 100%;
   max-width: 100%;
 }
 
+#description {
+  color: hsl(0, 0%, 42%);
+}
+
+#title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+.bold {
+  font-weight: bold;
+}
